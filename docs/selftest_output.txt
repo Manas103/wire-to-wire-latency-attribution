@@ -1,0 +1,2 @@
+=== invariants_test self-test (no CSV argument) ===
+self-test: clean=(0,0) nonmonotonic=(1,0) oracle-violation=(0,1) -> PASS

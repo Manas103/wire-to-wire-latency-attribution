@@ -1,0 +1,52 @@
+=== kernel-socket (n=1000) ===
+leg1 (req wire+kernel)     mean=    4.758us  p50=    4.398us p99=    7.594us  p99.9=   11.970us  max=   29.454us
+proc (server)              mean=   32.142us  p50=   30.314us p99=   57.865us  p99.9=   86.551us  max=  112.196us
+leg2 (resp wire+kernel)    mean=    5.105us  p50=    5.099us p99=    7.534us  p99.9=   14.937us  max=   15.007us
+total RTT                  mean=   42.005us  p50=   40.090us p99=   70.312us  p99.9=   97.120us  max=  122.285us
+
+=== busy-poll (n=1000) ===
+leg1 (req wire+kernel)     mean=    5.020us  p50=    4.588us p99=    7.495us  p99.9=    9.515us  max=  127.534us
+proc (server)              mean=   30.895us  p50=   30.061us p99=   40.454us  p99.9=   54.612us  max=   55.472us
+leg2 (resp wire+kernel)    mean=    5.177us  p50=    5.039us p99=    6.629us  p99.9=   15.167us  max=  144.155us
+total RTT                  mean=   41.091us  p50=   40.026us p99=   54.076us  p99.9=  165.273us  max=  184.589us
+
+rows checked              : 1000
+monotonicity failures     : 0
+oracle-disagreement cases : 0 (threshold 200000 ns)
+max |4pt_rtt - wall_rtt|  : 138495 ns
+PASS
+rows checked              : 1000
+monotonicity failures     : 0
+oracle-disagreement cases : 0 (threshold 200000 ns)
+max |4pt_rtt - wall_rtt|  : 67741 ns
+PASS
+rows checked              : 1000
+monotonicity failures     : 0
+oracle-disagreement cases : 0 (threshold 200000 ns)
+max |4pt_rtt - wall_rtt|  : 97114 ns
+PASS
+rows checked              : 1000
+monotonicity failures     : 0
+oracle-disagreement cases : 0 (threshold 200000 ns)
+max |4pt_rtt - wall_rtt|  : 157191 ns
+PASS
+rows checked              : 1000
+monotonicity failures     : 0
+oracle-disagreement cases : 0 (threshold 200000 ns)
+max |4pt_rtt - wall_rtt|  : 156419 ns
+PASS
+rows checked              : 1000
+monotonicity failures     : 0
+oracle-disagreement cases : 1 (threshold 200000 ns)
+max |4pt_rtt - wall_rtt|  : 284541 ns
+FAIL
+rows checked              : 1000
+monotonicity failures     : 0
+oracle-disagreement cases : 1 (threshold 200000 ns)
+max |4pt_rtt - wall_rtt|  : 1238832 ns
+FAIL
+rows checked              : 1000
+monotonicity failures     : 0
+oracle-disagreement cases : 4 (threshold 200000 ns)
+max |4pt_rtt - wall_rtt|  : 1620922 ns
+FAIL

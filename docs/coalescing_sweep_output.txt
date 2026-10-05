@@ -1,0 +1,36 @@
+=== default trial 1 (n=1000) ===
+leg1 (req wire+kernel)     mean=    5.437us  p50=    5.480us p99=    7.584us  p99.9=   15.143us  max=   20.024us
+proc (server)              mean=   34.083us  p50=   33.758us p99=   44.543us  p99.9=  125.096us  max=  158.193us
+leg2 (resp wire+kernel)    mean=    5.557us  p50=    5.480us p99=    6.512us  p99.9=   19.217us  max=   20.929us
+total RTT                  mean=   45.078us  p50=   44.647us p99=   60.091us  p99.9=  137.138us  max=  170.987us
+
+=== default trial 2 (n=1000) ===
+leg1 (req wire+kernel)     mean=    5.529us  p50=    5.500us p99=    7.674us  p99.9=   15.697us  max=   33.492us
+proc (server)              mean=   34.230us  p50=   33.184us p99=   61.709us  p99.9=  136.517us  max=  420.859us
+leg2 (resp wire+kernel)    mean=    5.865us  p50=    5.520us p99=    6.617us  p99.9=   61.609us  max=  196.294us
+total RTT                  mean=   45.624us  p50=   44.187us p99=   77.180us  p99.9=  294.735us  max=  433.973us
+
+=== default trial 3 (n=1000) ===
+leg1 (req wire+kernel)     mean=    5.441us  p50=    5.345us p99=    7.775us  p99.9=   15.788us  max=   64.278us
+proc (server)              mean=   33.125us  p50=   32.666us p99=   53.794us  p99.9=   78.648us  max=   91.132us
+leg2 (resp wire+kernel)    mean=    5.719us  p50=    5.630us p99=    6.773us  p99.9=   25.101us  max=   28.753us
+total RTT                  mean=   44.284us  p50=   43.703us p99=   64.241us  p99.9=  109.376us  max=  123.548us
+
+=== enabled trial 1 (n=1000) ===
+leg1 (req wire+kernel)     mean=    5.465us  p50=    5.430us p99=    7.914us  p99.9=   17.400us  max=   55.102us
+proc (server)              mean=   35.721us  p50=   34.059us p99=   60.298us  p99.9=  108.091us  max=  188.578us
+leg2 (resp wire+kernel)    mean=    5.767us  p50=    5.480us p99=   21.498us  p99.9=   26.942us  max=   29.444us
+total RTT                  mean=   46.954us  p50=   45.181us p99=   72.462us  p99.9=  120.813us  max=  200.279us
+
+=== enabled trial 2 (n=1000) ===
+leg1 (req wire+kernel)     mean=    5.728us  p50=    5.643us p99=    7.660us  p99.9=   21.898us  max=   36.499us
+proc (server)              mean=   34.776us  p50=   34.520us p99=   51.783us  p99.9=   72.965us  max=  131.271us
+leg2 (resp wire+kernel)    mean=    5.712us  p50=    5.483us p99=    6.646us  p99.9=   10.276us  max=  151.269us
+total RTT                  mean=   46.216us  p50=   45.666us p99=   64.525us  p99.9=  158.370us  max=  192.500us
+
+=== enabled trial 3 (n=1000) ===
+leg1 (req wire+kernel)     mean=    5.650us  p50=    5.521us p99=    7.859us  p99.9=   54.204us  max=  136.062us
+proc (server)              mean=   37.933us  p50=   33.993us p99=  126.248us  p99.9=  724.515us  max= 1204.297us
+leg2 (resp wire+kernel)    mean=    5.886us  p50=    5.407us p99=    7.060us  p99.9=  137.427us  max=  236.884us
+total RTT                  mean=   49.469us  p50=   44.908us p99=  148.639us  p99.9=  866.632us  max= 1216.145us
+

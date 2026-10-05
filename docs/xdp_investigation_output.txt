@@ -1,0 +1,5 @@
+libbpf: Error in bpf_create_map_xattr(xsks_map):ERROR: strerror_r(-524)=22(-524). Retrying without BTF.
+server mode=xdp listening on veth1 --- rows actually completed ---
+0 /tmp/xdp_final.csv
+ for packet 0/200
+xdp debug: program invocations=0 last_rx_queue_index=0 last_redirect_ret=0 (XDP_REDIRECT=4, XDP_PASS=2)

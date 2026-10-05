@@ -1,0 +1,9 @@
+build/
+out/
+*.o
+*.obj
+*.bpf.o
+*.exe
+__pycache__/
+.pytest_cache/
+*.log
